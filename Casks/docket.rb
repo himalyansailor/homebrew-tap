@@ -10,7 +10,7 @@ cask "docket" do
   desc "Edge-dock companion showing AI subscription usage and quick widgets"
   homepage "https://github.com/himalyansailor/docket"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Docket.app"
 
